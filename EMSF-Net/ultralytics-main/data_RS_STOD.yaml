@@ -1,0 +1,17 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: D:\A_Good_study\Data_English_Name\RS-STOD # dataset root dir
+train: D:\A_Good_study\Dataset\Dataset_Remote_Sensing\RS-STOD\images\train # train images (relative to 'path')  6471 images
+val: D:\A_Good_study\Dataset\Dataset_Remote_Sensing\RS-STOD\images\val  # val images (relative to 'path')  548 images
+test: D:\A_Good_study\Dataset\Dataset_Remote_Sensing\RS-STOD\images\test # test images (optional)  1610 images
+
+# 类别数量（必须与names列表长度一致）
+nc: 5
+# Classes
+names:
+  0: Small Vehicle
+  1: Large Vehicle
+  2: Ship
+  3: Airplane
+  4: Storage Tank
+
+
